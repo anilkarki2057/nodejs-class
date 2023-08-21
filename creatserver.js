@@ -13,6 +13,8 @@ http
   })
   .listen(5555);
 console.log("app is rinning on port 5555"); //local host::5555in browser*/
+
+//2.By creating own module
 const http = require("http");
 const myModule = require("./myCustomeModule");
 http
